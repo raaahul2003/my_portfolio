@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Finlandica+Text:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin-top: 0;
+    padding: 0;
+
+    /* for not enlarging the div or the width */
+    box-sizing: border-box;
+    font-family: Finlandica;
+    
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 99%;
+    top: 0px;
+}
+
+.links{
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+    margin: 0px 20px;
+    font-weight: bold;
+
+}
+
+/* when hover on a tag we use hover to design when we hover */
+.links:hover{
+    color: red  ;
+    text-decoration: underline;
+}
+
+
+#home{
+    display: flex;
+    
+}
+
+.home-section{
+    height: 450px;
+    width: 50%;
+    
+
+}
+
+#home-text{
+    margin: 260px 120px;
+
+}
+
+#dwnld{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+#iname{
+    color: red;
+    font-family: Dancing Script;
+}
+
+#fname{
+    font-family: Dancing Script;
+    font-size: 60px;
+}
