@@ -18,6 +18,7 @@ header{
     position: fixed;
     width: 99%;
     top: 0px;
+    z-index: 10;
 }
 
 .links{
@@ -42,7 +43,7 @@ header{
 }
 
 .home-section{
-    height: 450px;
+    height: 100vh;
     width: 50%;
     
 
@@ -70,3 +71,66 @@ header{
     font-family: Dancing Script;
     font-size: 60px;
 }
+
+.home-img{
+    width: 33%;
+    /* height: 80%; */
+    position: absolute;
+    top: 140px;
+    transition: transform 4s;
+     
+}
+
+ /* to move and enlarge the thing */
+ #shape{
+    margin-top: 5%; 
+    width: 40%;
+ }
+ .home-section:hover #shape{
+    transform: translateY(-50px);
+    /* transition-duration: 2s; */
+ }
+
+ .home-section:hover #mypic{
+    transform: translateX(-50px);
+    /* transition-duration: 2s; */
+ }
+ #about{
+    display: flex;
+ }
+
+ .about-section{
+    height: 50vh;
+    
+ }
+
+ #about-img{
+    width: 40%;
+    margin: 15% 20%;
+ }
+
+ .heading{
+
+    font-family: Dancing Script;
+    font-size: 50px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    
+
+    
+ }
+
+ #info span{
+    margin-left: 5px;
+    font-size: 20px;
+ }
+
+ .info-box{
+    margin: 2px;
+ }
+
+ #skill-section{
+    height: 50vh;
+    
+ }
