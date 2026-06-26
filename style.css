@@ -19,6 +19,7 @@ header{
     width: 99%;
     top: 0px;
     z-index: 10;
+    /* background-color: white; */
 }
 
 .links{
@@ -134,3 +135,54 @@ header{
     height: 50vh;
     
  }
+
+ #skill-img{
+    display: flex; 
+    width: 50%; 
+    margin: 20px 70px;
+    height: 400px;
+   
+    
+ }
+
+ #contact-section{
+    /* height: 50vh; */
+ }
+
+ #icons{
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ .icon{
+    /* background-color: whitesmoke; */
+    margin-top: -10px;
+    font-size: 350%;
+    margin-left: 20px;
+    border-radius: 100%;
+
+
+ }
+
+ .icon :hover{
+    background-color: goldenrod;
+    border-radius: 9000px;
+ }
+
+ #home-btn{
+    position: relative;
+    /* margin-bottom: 1%; */
+    left: 30%;
+    border-radius: 50%;
+    width: 5%;
+    /* height: 10%; */
+    background-color: whitesmoke;
+    border: 1px solid rgb(239, 162, 21);
+ }
+
+
+
+ 
